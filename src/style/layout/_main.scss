@@ -1,0 +1,45 @@
+.container_video {
+  position: fixed;
+  top: 0;
+  width: 105vmax;
+  height: 105vmin;
+  overflow: hidden;
+  z-index: -99;
+  @include screen-size('tall') {
+
+  }
+}
+
+.container_scroll {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  .content {
+    position: relative;
+    display: block;
+    margin: 25% auto;
+    width: 60%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.description {
+  @include hide-scroll;
+  display: none;
+  position: fixed;
+  bottom: 22px;
+  left: 25%;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+  line-height: 22px;  
+  z-index: 99;
+  height: 44px;
+  overflow-y: scroll;
+  color: rgba(255, 0, 45, 0.7);
+  background: rgba(255, 255, 255, 0.3);
+}

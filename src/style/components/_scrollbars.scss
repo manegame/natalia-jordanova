@@ -1,0 +1,34 @@
+/* pseudo elements */
+
+::-webkit-scrollbar              { 
+	width : 5px;
+	background: rgba(0,0,0,0.01);
+}
+::-webkit-scrollbar *              { 
+}
+::-webkit-scrollbar-thumb        { 
+	background: rgba(255, 255, 255, 0.9) !important;
+	}
+::-webkit-scrollbar-corner       {  }
+::-webkit-resizer                {  }
+
+::-webkit-scrollbar-track-piece:start {
+    background: transparent url('../img/scrollbar.png') repeat-y !important;
+}
+
+::-webkit-scrollbar-track-piece:end {
+    background: transparent url('../img/scrollbar.png') repeat-y !important;
+}
+
+/* pseudo class selectors */
+// :horizontal
+// :vertical
+// :decrement
+// :increment
+// :start
+// :end 
+// :double-button
+// :single-button
+// :no-button
+// :corner-present
+// :window-inactive

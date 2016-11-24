@@ -1,0 +1,23 @@
+.fp-section {
+	h1 {
+		position: absolute;
+		left: 10%;
+		top: 40%;
+		color: rgba(255, 255, 255, 0.7);
+		font-size: 80px;
+		line-height: 90px;
+		padding: 8px 0;
+		width: 85%;
+		background: rgba(19, 193, 255, 0.9);
+		text-align: center;
+		cursor: pointer !important;
+		i {
+			font-style: italic;
+		}
+	}
+	img {
+		@include center;
+		height: 90%;
+		width: auto;
+	}
+}
